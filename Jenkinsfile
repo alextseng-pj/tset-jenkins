@@ -6,7 +6,6 @@ pipeline {
         stage('ansible') {
           steps {
             sh 'echo andible'
-            ansiblePlaybook 'main'
           }
         }
 
